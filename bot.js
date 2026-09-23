@@ -30,7 +30,7 @@ async function connectToWhatsApp() {
     // Pairing Code එක Request කිරීම
     if (!sock.authState.creds.registered) {
         // ⚠️ මෙතන 94 සමඟ ඔයාගේ නම්බර් එක දෙන්න (+ ලකුණ නැතුව)
-        const phoneNumber = "94720375455"; 
+        const phoneNumber = "94702634347"; 
 
         setTimeout(async () => {
             const code = await sock.requestPairingCode(phoneNumber);
